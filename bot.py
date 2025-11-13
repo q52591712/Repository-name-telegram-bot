@@ -81,5 +81,5 @@ def main():
         print("启动 Polling 模式（本地调试）")
         app.run_polling()
 
-if name == "__main__":
+if __name__ == "__main__":
     main()
